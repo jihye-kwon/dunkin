@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+    <title>던킨</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper-bundle.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image">
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery.mobile-1.5.0-rc1.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/imagelightbox.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <!--메인 페이지-->
+    <div data-role="page" id="main" class="main">
+        <div data-role="header" class="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <div class="menu_btn">
+                    <a href="#"><img src="img/top_menu.png" alt="메뉴 버튼"></a>
+                </div>
+            </div>
+            <div class="header2">
+                <ul>
+                    <li><a href="#main" data-transition="flip" class="active">MAIN</a></li>
+                    <li><a href="#sub1" data-transition="flow">온라인 스토어</a></li>
+                    <li><a href="#sub2" data-transition="fade">메뉴</a></li>
+                    <li><a href="#sub3" data-transition="flip">이벤트</a></li>
+                </ul>
+            </div>
+            <!--햄버거 메뉴 버튼 클릭하면 나오는 메뉴-->
+            <div class="nav">
+                <div class="close">
+                    <a href="#"><img src="img/close.png" alt="닫기"></a>
+                </div><!--close-->
+                <div class="nav_logo">
+                    <a href="#"><img src="img/logo.png" alt="로고"></a>
+                </div><!--nav_logo-->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">ONLINE STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">해피오더 서비스</a></li>
+                                <li><a href="#">해피 E-마켓</a></li>
+                            </ul>
+                        </li><!--online store-->
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--menu-->
+                        <li>
+                            <a href="#">영양정보 및 알레르기</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--영양정보 및 알레르기-->
+                        <li>
+                            <a href="#">EVENT</a>
+                            <ul class="sub">
+                                <li><a href="#">진행중인 이벤트</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li><!--event-->
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">오프라인 STORE</a></li>
+                                <li><a href="#">온라인 STORE</a></li>
+                                <li><a href="#">가맹점 개설 안내</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li>
+                            <a href="#">BRAND</a>
+                            <ul class="sub">
+                                <li><a href="#">브랜드 소개</a></li>
+                                <li><a href="#">브랜드 소식</a></li>
+                                <li><a href="#">미이어 센터</a></li>
+                                <li><a href="#">CF</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li><a href="#">창업문의</a></li>
+                    </ul>
+                </nav>
+                <!--sns아이콘-->
+                <div class="sns_icon">
+                    <ul>
+                        <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                        <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                        <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--header-->
+        <!--메인 페이지 컨텐츠-->
+        <div data-role="content" class="section">
+            <div class="visual">
+                <div class="swiper-container slide1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="img/slide1.png" alt="메인슬라이드1"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/slide2.png" alt="메인슬라이드2"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/slide3.png" alt="메인슬라이드3"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="img/slide4.png" alt="메인슬라이드4"></a></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div><!--메인슬라이드-->
+            <div class="you">
+                <h2>〈 던킨 매일 완판! 〉</h2>
+                <div class="you_big">
+                    <div class="you_icon">NEW</div>
+                    <div class="you_banner">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/wYiyZzCYAFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div><!--you-->
+            <div class="tab">
+                <!--탭제목-->
+                <div class="tab_title">
+                    <a href="#" class="t1 active">Online Event</a>
+                    <a href="#" class="t2">Store Event</a>
+                </div>
+                <!--탭내용-->
+                <div class="tab_content">
+                    <div class="con1">
+                        <a href="#">
+                            <div class="con_img">
+                                <img src="img/tab1-1.jpg" alt="쿨라타">
+                            </div>
+                            <div class="con_txt">
+                                <div class="tab_icon"><img src="img/icon_online.png" alt="온라인"></div>
+                                <h2>배달 주문시 쿨...</h2>
+                                <p>2021-07-21~</p>
+                                <p>올여름 클났다! 배달 주문시<br>쿨라타 1+1</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="con_img">
+                                <img src="img/tab1-2.jpg" alt="먼치킨">
+                            </div>
+                            <div class="con_txt">
+                                <div class="tab_icon"><img src="img/icon_online.png" alt="온라인"></div>
+                                <h2>해피마켓 던킨...</h2>
+                                <p>2021-07-01~</p>
+                                <p>해피마켓 던킨데이 30%OFF<br>제품 교환권을 쏜다!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="con2">
+                        <a href="#">
+                            <div class="con_img">
+                                <img src="img/tab2-1.jpg" alt="펫하우스">
+                            </div>
+                            <div class="con_txt">
+                                <div class="tab_icon"><img src="img/icon_store.png" alt="오프라인"></div>
+                                <h2>던킨X베이컨박...</h2>
+                                <p>2021-07-21~</p>
+                                <p>1.2만원 이상 구매시 원터치<br>펫하우스 6,900원</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="con_img">
+                                <img src="img/tab2-2.jpg" alt="금요일할인">
+                            </div>
+                            <div class="con_txt">
+                                <div class="tab_icon"><img src="img/icon_store.png" alt="오프라인"></div>
+                                <h2>DOUNT FRYDAY</h2>
+                                <p>2021-07-01~</p>
+                                <p>매주 금요일 페이머스 글레이<br>즈드팩 6개입 5,900원!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div><!--tab-->
+            <div class="gallery">
+                <h1>MENU</h1>
+                <div class="gall_area">
+                    <ul>
+                        <li>
+                            <a href="img/menu_01.png" data-imagelightbox="f">
+                                <img src="img/menu_01.png" alt="신제품도넛">
+                            </a>
+                            <p>event donuts</p>
+                            <a href="#" class="menu_box">도넛 메뉴 보기</a>
+                        </li>
+                        <li>
+                            <a href="img/menu_02.png" data-imagelightbox="f">
+                                <img src="img/menu_02.png" alt="도넛">
+                            </a>
+                            <p>donuts</p>
+                            <a href="#" class="menu_box">도넛 메뉴 보기</a>
+                        </li>
+                        <li>
+                            <a href="img/menu_03.png" data-imagelightbox="f">
+                                <img src="img/menu_03.png" alt="커피">
+                            </a>
+                            <p>coffee</p>
+                            <a href="#" class="menu_box">커피 메뉴 보기</a>
+                        </li>
+                        <li>
+                            <a href="img/menu_04.png" data-imagelightbox="f">
+                                <img src="img/menu_04.png" alt="샌드위치">
+                            </a>
+                            <p>hot sandwiches</p>
+                            <a href="#" class="menu_box">샌드위치 메뉴 보기</a>
+                        </li>
+                        <li>
+                            <a href="img/menu_05.png" data-imagelightbox="f">
+                                <img src="img/menu_05.png" alt="음료">
+                            </a>
+                            <p>beverage</p>
+                            <a href="#" class="menu_box">음료 메뉴 보기</a>
+                        </li>
+                        <li>
+                            <a href="img/menu_06.png" data-imagelightbox="f">
+                                <img src="img/menu_06.png" alt="기타">
+                            </a>
+                            <p>others</p>
+                            <a href="#" class="menu_box">기타 메뉴 보기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!--gallery-->
+        </div>
+        <div data-role="footer" class="footer">
+            <div class="f_logo">
+                <img src="img/logo.png" alt="로고">
+            </div>
+            <div class="info">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                </ul>
+            </div>
+            <address>
+                서울특별시<br>
+                서초구 남부순환로 2620(양재동 11-149번지)<br>
+                사업자 등록번호 : 303-81-09535<br>
+                비알코리아(주) 대표이사 도세호<br>
+                TEL : 080-555-3131<br>
+            </address>
+            <p>COPYRIGHT ⓒ 2016 BRKOREA COMPANY.<br>
+                ALL RIGHTS RESERVED.
+            </p>
+            <div class="f_sns_icon">
+                <ul>
+                    <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                    <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                    <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_icon">
+            <div class="f_icon">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/f_icon_01.png" alt="store">
+                            <p>STORE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_02.png" alt="notice">
+                            <p>NOTICE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_03.png" alt="home">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_04.png" alt="f_icon_delivery-1">
+                            <p>DELIVERY</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_05.png" alt="창업안내">
+                            <p>창업안내</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--첫번째 서브 페이지-->
+    <div data-role="page" id="sub1" class="sub1">
+        <div data-role="header" class="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <div class="menu_btn">
+                    <a href="#"><img src="img/top_menu.png" alt="메뉴 버튼"></a>
+                </div>
+            </div>
+            <div class="header2">
+                <ul>
+                    <li><a href="#main" data-transition="flip">MAIN</a></li>
+                    <li><a href="#sub1" data-transition="flow" class="active">온라인 스토어</a></li>
+                    <li><a href="#sub2" data-transition="fade">메뉴</a></li>
+                    <li><a href="#sub3" data-transition="flip">이벤트</a></li>
+                </ul>
+            </div>
+            <!--햄버거 메뉴 버튼 클릭하면 나오는 메뉴-->
+            <div class="nav">
+                <div class="close">
+                    <a href="#"><img src="img/close.png" alt="닫기"></a>
+                </div><!--close-->
+                <div class="nav_logo">
+                    <a href="#"><img src="img/logo.png" alt="로고"></a>
+                </div><!--nav_logo-->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">ONLINE STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">해피오더 서비스</a></li>
+                                <li><a href="#">해피 E-마켓</a></li>
+                            </ul>
+                        </li><!--online store-->
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--menu-->
+                        <li>
+                            <a href="#">영양정보 및 알레르기</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--영양정보 및 알레르기-->
+                        <li>
+                            <a href="#">EVENT</a>
+                            <ul class="sub">
+                                <li><a href="#">진행중인 이벤트</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li><!--event-->
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">오프라인 STORE</a></li>
+                                <li><a href="#">온라인 STORE</a></li>
+                                <li><a href="#">가맹점 개설 안내</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li>
+                            <a href="#">BRAND</a>
+                            <ul class="sub">
+                                <li><a href="#">브랜드 소개</a></li>
+                                <li><a href="#">브랜드 소식</a></li>
+                                <li><a href="#">미이어 센터</a></li>
+                                <li><a href="#">CF</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li><a href="#">창업문의</a></li>
+                    </ul>
+                </nav>
+                <!--sns아이콘-->
+                <div class="sns_icon">
+                    <ul>
+                        <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                        <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                        <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--첫번째 sub1 페이지의 header-->    
+        <div data-role="content" class="section">
+            <div class="s1_tab">
+                <!--탭제목-->
+                <div class="s1_tab_title">
+                    <a href="#" class="s1_t1 active"><img src="img/heart-l.png" alt="하트">해피오더 서비스</a>
+                    <a href="#" class="s1_t2">해피 E-마켓<img src="img/heart-r.png" alt="하트"></a>
+                </div>
+                <!--탭내용-->
+                <div class="s1_tab_content">
+                    <div class="s1_con1">
+                        <b>HAPPY ORDER</b>
+                        <p>해피앱에서 간편하게 예약 & 픽업 배달까지<br>원하는 시간에 빠르고 간편하게 던킨을 만나보세요!</p>
+                        <div class="txt_box1"><img src="img/text_bg.png" alt="말풍선"><p>ALWAYS DUNKIN'</p></div>
+                        <div class="s1_con_img1">
+                            <ul>
+                                <li><img src="img/al01.png" alt="한끼식사"><p>한끼식사</p></li>
+                                <li><img src="img/al02.png" alt="커피"><p>커피</p></li>
+                                <li><img src="img/al03.png" alt="도너츠"><p>도너츠</p></li>
+                            </ul>
+                            <ul>
+                                <li><img src="img/al04.png" alt="음료"><p>음료</p></li>
+                                <li><img src="img/al05.png" alt="가정간편식/커피상품"><p>가정간편식<br>/커피상품</p></li>
+                            </ul>
+                        </div>
+                        <div class="txt_box2"><img src="img/text_bg.png" alt="말풍선"><p>WHITH DUNKIN'</p></div>
+                        <div class="s1_con_img2">
+                            <ul>
+                                <li>
+                                    <b>HAPPY HOME</b>
+                                    <p>집에서</p>
+                                    <img src="img/wh01.png" alt="집">
+                                </li>
+                                <li>
+                                    <b>IN COMPANY</b>
+                                    <p>회사에서</p>
+                                    <img src="img/wh02.png" alt="회사">
+                                </li>
+                                <li>
+                                    <b>IN THE PARTY / MEETING</b>
+                                    <p>행사 / 모임 추천</p>
+                                    <img src="img/wh03.png" alt="행사/모임">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="txt_box3"><img src="img/text_bg.png" alt="말풍선"><p>HOW TO ORDER</p></div>
+                        <div class="s1_con_img3">
+                            <ul>
+                                <li>
+                                    <img src="img/how01.png" alt="스텝1">
+                                    <div class="txt">
+                                        <h4>STEP1</h4>
+                                        <p>해피포인트 APP에 접속해<br>해피마켓 ▶ 해피오더 클릭</p>
+                                    </div>
+                                </li>
+                                <img src="img/arrow-d.png" alt="아래화살표">
+                                <li>
+                                    <img src="img/how02.png" alt="스텝2">
+                                    <div class="txt">
+                                        <h4>STEP2</h4>
+                                        <p>원하는 제품을 골라<br>픽업 or 배달 요청 선택 후<br>결제하면 주문 완료!</p>
+                                    </div>
+                                </li>
+                                <img src="img/arrow-d.png" alt="아래화살표">
+                                <li>
+                                    <img src="img/how03.png" alt="스텝3">
+                                    <div class="txt">
+                                        <h4>STEP3</h4>
+                                        <p>원하는 날짜, 시간에<br>배송 또는 픽업</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#">해피오더 바로가기</a>
+                    </div>
+                    <div class="s1_con2">
+                        <b>HAPPY E-MARKET</b>
+                        <p>해피마켓, 카카오선물하기, G마켓, 옥션, G9, 11번가에서 만나는 던킨<br>언제 어디서나 편하게 즐기는 던킨을 경험하세요.</p>
+                        <div class="s1_con_best">
+                            <h2>BEST DUNKIN' TOP 4</h2>
+                            <ul>
+                                <li>
+                                    <img src="img/best_01.png" alt="던킨분식세트">
+                                    <p>던킨 분식 세트</p>
+                                </li>
+                                <li>
+                                    <img src="img/best_02.png" alt="던킨 도넛 6개팩">
+                                    <p>던킨 도넛 6개팩</p>
+                                </li>
+                                <li>
+                                    <img src="img/best_03.png" alt="던킨 클래식매니아">
+                                    <p>던킨 클래식 매니아</p>
+                                </li>
+                                <li>
+                                    <img src="img/best_04.png" alt="블랙버블밀크티">
+                                    <p>블랙 버블 밀크티</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s1_con_coupon">
+                            <h2>모바일 쿠폰 채널</h2>
+                            <ul>
+                                <li>
+                                    <img src="img/chennel01.png" alt="해피마켓">
+                                    <p>해피마켓</p>
+                                    <a href="#">바로가기</a>
+                                </li>
+                                <li>
+                                    <img src="img/chennel02.png" alt="카카오선물하기">
+                                    <p>카카오<br>선물하기</p>
+                                    <a href="#">바로가기</a>
+                                </li>
+                                <li>
+                                    <img src="img/chennel03.png" alt="G마켓">
+                                    <p>G마켓</p>
+                                    <a href="#">바로가기</a>
+                                </li>
+                                <li>
+                                    <img src="img/chennel04.png" alt="옥션">
+                                    <p>옥션</p>
+                                    <a href="#">바로가기</a>
+                                </li>
+                                <li>
+                                    <img src="img/chennel05.png" alt="G9">
+                                    <p>G9</p>
+                                    <a href="#">바로가기</a>
+                                </li>
+                                <li>
+                                    <img src="img/chennel06.png" alt="11번가">
+                                    <p>11번가</p>
+                                    <a href="#">바로가기</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--s1_con2-->
+                </div>
+            </div><!--tab-->
+        </div>    
+        <div data-role="footer" class="footer">
+            <div class="f_logo">
+                <img src="img/logo.png" alt="로고">
+            </div>
+            <div class="info">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                </ul>
+            </div>
+            <address>
+                서울특별시<br>
+                서초구 남부순환로 2620(양재동 11-149번지)<br>
+                사업자 등록번호 : 303-81-09535<br>
+                비알코리아(주) 대표이사 도세호<br>
+                TEL : 080-555-3131<br>
+            </address>
+            <p>COPYRIGHT ⓒ 2016 BRKOREA COMPANY.<br>
+                ALL RIGHTS RESERVED.
+            </p>
+            <div class="f_sns_icon">
+                <ul>
+                    <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                    <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                    <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                </ul>
+            </div>
+        </div><!--첫번째 페이지 footer-->
+        <div class="main_icon">
+            <div class="f_icon">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/f_icon_01.png" alt="store">
+                            <p>STORE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_02.png" alt="notice">
+                            <p>NOTICE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_03.png" alt="home">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_04.png" alt="f_icon_delivery-1">
+                            <p>DELIVERY</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_05.png" alt="창업안내">
+                            <p>창업안내</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div><!--첫번째 페이지 main_icon-->
+    </div>
+    <!--두번째 서브 페이지-->
+    <div data-role="page" id="sub2" class="sub2">
+        <div data-role="header" class="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <div class="menu_btn">
+                    <a href="#"><img src="img/top_menu.png" alt="메뉴 버튼"></a>
+                </div>
+            </div>
+            <div class="header2">
+                <ul>
+                    <li><a href="#main" data-transition="flip">MAIN</a></li>
+                    <li><a href="#sub1" data-transition="flow">온라인 스토어</a></li>
+                    <li><a href="#sub2" data-transition="fade" class="active">메뉴</a></li>
+                    <li><a href="#sub3" data-transition="flip">이벤트</a></li>
+                </ul>
+            </div>
+            <!--햄버거 메뉴 버튼 클릭하면 나오는 메뉴-->
+            <div class="nav">
+                <div class="close">
+                    <a href="#"><img src="img/close.png" alt="닫기"></a>
+                </div><!--close-->
+                <div class="nav_logo">
+                    <a href="#"><img src="img/logo.png" alt="로고"></a>
+                </div><!--nav_logo-->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">ONLINE STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">해피오더 서비스</a></li>
+                                <li><a href="#">해피 E-마켓</a></li>
+                            </ul>
+                        </li><!--online store-->
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--menu-->
+                        <li>
+                            <a href="#">영양정보 및 알레르기</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--영양정보 및 알레르기-->
+                        <li>
+                            <a href="#">EVENT</a>
+                            <ul class="sub">
+                                <li><a href="#">진행중인 이벤트</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li><!--event-->
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">오프라인 STORE</a></li>
+                                <li><a href="#">온라인 STORE</a></li>
+                                <li><a href="#">가맹점 개설 안내</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li>
+                            <a href="#">BRAND</a>
+                            <ul class="sub">
+                                <li><a href="#">브랜드 소개</a></li>
+                                <li><a href="#">브랜드 소식</a></li>
+                                <li><a href="#">미이어 센터</a></li>
+                                <li><a href="#">CF</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li><a href="#">창업문의</a></li>
+                    </ul>
+                </nav>
+                <!--sns아이콘-->
+                <div class="sns_icon">
+                    <ul>
+                        <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                        <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                        <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--두번째 sub2 페이지의 header-->
+        <div data-role="content" class="section">
+            <div class="s2_slide">
+                <h1>MENU</h1>
+                <div class="s2_slide_title">
+                    <a href="#" class="s2_t1"><img src="img/icon_nav0101.png" alt="도넛"><p>DONUT</p><img src="img/icon_nav0101.png" alt="도넛"></a>
+                    <div class="s2_visual">
+                        <div class="swiper-container slide2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-01.png" alt="도넛"></a><p>초코가 맛있어서<br>바나나</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-02.png" alt="도넛"></a><p>고릴라가 사랑한<br>바나나</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-03.png" alt="도넛"></a><p>스트로베리<br>츄이 먼치킨</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-04.png" alt="도넛"></a><p>페이머스<br>글레이즈드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-05.png" alt="도넛"></a><p>스트로베리필드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-06.png" alt="도넛"></a><p>바바리안필드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-07.png" alt="도넛"></a><p>초코 크림 필드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-08.png" alt="도넛"></a><p>보스톤 크림</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-09.png" alt="도넛"></a><p>올드훼션드<br>글레이즈드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-10.png" alt="도넛"></a><p>해피 버스데이 도넛</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-11.png" alt="도넛"></a><p>올리브 츄이스티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-12.png" alt="도넛"></a><p>사랑에 빠진 하트</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_01-13.png" alt="도넛"></a><p>해피 먼치킨컵<br>(10)개</p></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div><!--s2슬라이드-->
+                    <a href="#" class="s2_t2"><img src="img/icon_nav0102.png" alt="샌드위치"><p>SANDWICHES</p><img src="img/icon_nav0102.png" alt="샌드위치"></a>
+                    <div class="s2_visual">
+                        <div class="swiper-container slide2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-01.png" alt="샌드위치"></a><p>오리지널 핫도그</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-02.png" alt="샌드위치"></a><p>고추마요 핫도그</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-03.png" alt="샌드위치"></a><p>비프칠리 핫도그</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-04.png" alt="샌드위치"></a><p>스파이시 치즈<br>치킨버거</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-05.png" alt="샌드위치"></a><p>내쉬빌<br>핫치킨 버거</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-06.png" alt="샌드위치"></a><p>칼바사<br>소시지 버거</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-07.png" alt="샌드위치"></a><p>베이컨에그<br>잉글리쉬머핀</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-08.png" alt="샌드위치"></a><p>콰트로 치즈<br>크로크무슈</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_02-09.png" alt="샌드위치"></a><p>스파이시 치킨<br>치아바타</p></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div><!--s2슬라이드-->
+                    <a href="#" class="s2_t3"><img src="img/icon_nav0103.png" alt="커피"><p>COFFEE</p><img src="img/icon_nav0103.png" alt="커피"></a>
+                    <div class="s2_visual">
+                        <div class="swiper-container slide2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-01.png" alt="커피"></a><p>아메리카노</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-02.png" alt="커피"></a><p>아이스 아메리카노</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-03.png" alt="커피"></a><p>카페라떼</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-04.png" alt="커피"></a><p>아이스 카페라떼</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-05.png" alt="커피"></a><p>카푸치노</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-06.png" alt="커피"></a><p>카페모카</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-07.png" alt="커피"></a><p>아이스 카페모카</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-08.png" alt="커피"></a><p>카라멜마끼아또</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-09.png" alt="커피"></a><p>아이스<br>카라멜마끼아또</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-10.png" alt="커피"></a><p>바닐라라떼</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-11.png" alt="커피"></a><p>폼나는 콜드브루<br>아메리카노</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-12.png" alt="커피"></a><p>콜드브루 라떼</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_03-13.png" alt="커피"></a><p>콜드브루 아메리카노</p></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div><!--s2슬라이드-->
+                    <a href="#" class="s2_t4"><img src="img/icon_nav0104.png" alt="음료"><p>BEVERAGE</p><img src="img/icon_nav0104.png" alt="음료"></a>
+                    <div class="s2_visual">
+                        <div class="swiper-container slide2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-01.png" alt="음료"></a><p>소금크림 폼<br>피치 아이스티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-02.png" alt="음료"></a><p>미네랄 펀치 티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-03.png" alt="음료"></a><p>레몬에이드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-04.png" alt="음료"></a><p>자몽에이드</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-05.png" alt="음료"></a><p>피치 아이스티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-06.png" alt="음료"></a><p>커즈마인</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-07.png" alt="음료"></a><p>아이스 흑임자라떼</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-08.png" alt="음료"></a><p>제주 청귤<br>블렌딩 티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-09.png" alt="음료"></a><p>퍼스트브레이크</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-10.png" alt="음료"></a><p>스타젤리<br>미네랄 펀치 티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-11.png" alt="음료"></a><p>스타젤리<br>피치 아이스티</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_04-12.png" alt="음료"></a><p>블랙버블 밀크티</p></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div><!--s2슬라이드-->
+                    <a href="#" class="s2_t5"><img src="img/icon_nav0105.png" alt="기타"><p>OTHERS</p><img src="img/icon_nav0105.png" alt="기타"></a>
+                    <div class="s2_visual">
+                        <div class="swiper-container slide2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-01.png" alt="기타"></a><p>아이스 요거트</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-02.png" alt="기타"></a><p>아이스 블루</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-03.png" alt="기타"></a><p>아이스 초코치노</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-04.png" alt="기타"></a><p>아이스 라떼</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-05.png" alt="기타"></a><p>아이스 바닐라</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-06.png" alt="기타"></a><p>아이스 레드빈</p></div>
+                                <div class="swiper-slide"><a href="#"><img src="img/s2_tab_05-07.png" alt="기타"></a><p>밀크 스노우 빙수</p></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div><!--s2슬라이드-->
+                </div><!--s2_slide_title-->
+            </div><!--s2_slide-->
+        </div>    
+        <div data-role="footer" class="footer">
+            <div class="f_logo">
+                <img src="img/logo.png" alt="로고">
+            </div>
+            <div class="info">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                </ul>
+            </div>
+            <address>
+                서울특별시<br>
+                서초구 남부순환로 2620(양재동 11-149번지)<br>
+                사업자 등록번호 : 303-81-09535<br>
+                비알코리아(주) 대표이사 도세호<br>
+                TEL : 080-555-3131<br>
+            </address>
+            <p>COPYRIGHT ⓒ 2016 BRKOREA COMPANY.<br>
+                ALL RIGHTS RESERVED.
+            </p>
+            <div class="f_sns_icon">
+                <ul>
+                    <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                    <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                    <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                </ul>
+            </div>
+        </div><!--두번째 페이지 footer-->
+        <div class="main_icon">
+            <div class="f_icon">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/f_icon_01.png" alt="store">
+                            <p>STORE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_02.png" alt="notice">
+                            <p>NOTICE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_03.png" alt="home">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_04.png" alt="f_icon_delivery-1">
+                            <p>DELIVERY</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_05.png" alt="창업안내">
+                            <p>창업안내</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div><!--두번째 페이지 main_icon-->
+    </div>
+    <!--세번째 서브 페이지-->
+    <div data-role="page" id="sub3" class="sub3">
+        <div data-role="header" class="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <div class="menu_btn">
+                    <a href="#"><img src="img/top_menu.png" alt="메뉴 버튼"></a>
+                </div>
+            </div>
+            <div class="header2">
+                <ul>
+                    <li><a href="#main" data-transition="flip">MAIN</a></li>
+                    <li><a href="#sub1" data-transition="flow">온라인 스토어</a></li>
+                    <li><a href="#sub2" data-transition="fade">메뉴</a></li>
+                    <li><a href="#sub3" data-transition="flip" class="active">이벤트</a></li>
+                </ul>
+            </div>
+            <!--햄버거 메뉴 버튼 클릭하면 나오는 메뉴-->
+            <div class="nav">
+                <div class="close">
+                    <a href="#"><img src="img/close.png" alt="닫기"></a>
+                </div><!--close-->
+                <div class="nav_logo">
+                    <a href="#"><img src="img/logo.png" alt="로고"></a>
+                </div><!--nav_logo-->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">ONLINE STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">해피오더 서비스</a></li>
+                                <li><a href="#">해피 E-마켓</a></li>
+                            </ul>
+                        </li><!--online store-->
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--menu-->
+                        <li>
+                            <a href="#">영양정보 및 알레르기</a>
+                            <ul class="sub">
+                                <li><a href="#">DONUT</a></li>
+                                <li><a href="#">SANDWICHES</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">BEVERAGE</a></li>
+                                <li><a href="#">OTHER</a></li>
+                            </ul>
+                        </li><!--영양정보 및 알레르기-->
+                        <li>
+                            <a href="#">EVENT</a>
+                            <ul class="sub">
+                                <li><a href="#">진행중인 이벤트</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li><!--event-->
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="sub">
+                                <li><a href="#">오프라인 STORE</a></li>
+                                <li><a href="#">온라인 STORE</a></li>
+                                <li><a href="#">가맹점 개설 안내</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li>
+                            <a href="#">BRAND</a>
+                            <ul class="sub">
+                                <li><a href="#">브랜드 소개</a></li>
+                                <li><a href="#">브랜드 소식</a></li>
+                                <li><a href="#">미이어 센터</a></li>
+                                <li><a href="#">CF</a></li>
+                            </ul>
+                        </li><!--store-->
+                        <li><a href="#">창업문의</a></li>
+                    </ul>
+                </nav>
+                <!--sns아이콘-->
+                <div class="sns_icon">
+                    <ul>
+                        <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                        <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                        <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--세번째 sub3 페이지의 header-->
+        <div data-role="content" class="section">
+            <div class="s3_tab">
+                <!--탭제목-->
+                <div class="s3_tab_title">
+                    <a href="#" class="s3_t1 active">Online Event</a>
+                    <a href="#" class="s3_t2">Store Event</a>
+                </div>
+                <!--탭내용-->
+                <div class="s3_tab_content">
+                    <div class="s3_con1">
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/tab1-1.jpg" alt="쿨라타">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>배달 주문시 쿨...</h2>
+                                <p>2021-07-21~</p>
+                                <p>올여름 클났다! 배달 주문시<br>쿨라타 1+1</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/tab1-2.jpg" alt="먼치킨">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>해피마켓 던킨...</h2>
+                                <p>2021-07-01~</p>
+                                <p>해피마켓 던킨데이 30%OFF<br>제품 교환권을 쏜다!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event2.png" alt="프로모션">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>LGU+ VIP</h2>
+                                <p>2021-08-01 ~ 2021-12-31</p>
+                                <p>LGU+ 제휴 VIP<br>구독콕 프로모션</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event3.jpg" alt="티비온 라이브">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>던킨 X TVON</h2>
+                                <p>2021-07-21 ~ 소진 시까지</p>
+                                <p>티비온 라이브에서 던킨 최대<br>30% OFF</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event5.jpg" alt="햅모닝">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>해피마켓 햅모닝</h2>
+                                <p>2021-07-05 ~ 소진 시까지</p>
+                                <p>해피마켓 햅모닝<br>온라인 프로모션</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event6.jpg" alt="해피라이브">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>던킨X해피콘</h2>
+                                <p>2021-06-16 ~ 소진 시까지</p>
+                                <p>해피라이브 ON AIR<br>최대 44% 혜택!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event9.jpg" alt="도넛프라이데이">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>도넛프라이데이 해피마켓</h2>
+                                <p>2021-07-01 ~ 2021-09-30</p>
+                                <p>해피마켓 도넛프라이데이<br>온라인 프로모션!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event10.jpg" alt="11번가 런칭">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>DUNKIN X 11번가</h2>
+                                <p>2021-02-09 ~ 상시 운영</p>
+                                <p>위클리 던킨! 매주 화요일 밤 11시부터 수요일 아침 11시까지 던킨 최대 30% OFF</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event11.jpg" alt="브랜드 정기 기획전">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>DUNKIN X 11번가</h2>
+                                <p>2021-02-03 ~ 상시 운영</p>
+                                <p>브랜드 정기 기획전!<br>최대 30% OFF</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event12.jpg" alt="던킨 투나잇">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>DUNKIN' TONIGHT</h2>
+                                <p>2020-12-18 ~ 2021-12-31</p>
+                                <p>띵동~ 한밤에 찾아오는 던킨!<br>한밤 중 즐기는 던킨 투나잇</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event13.jpg" alt="콤보 음료 무료">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>모닝콤보</h2>
+                                <p>2020-10-20 ~ 2021-12-31</p>
+                                <p>모든 핫 샌드위치 구매 시 해피앱<br>바코드 보여주면 콤보 음료 FREE</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event14.jpg" alt="핫샌드위치 콤보">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>핫샌드위치 콤보</h2>
+                                <p>2020-10-20 ~ 2021-12-31</p>
+                                <p>하루종일 1,000원 추가시<br>콤보음료 제공!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event15.jpg" alt="매거진">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>MAGAZINE D</h2>
+                                <p>2020-10-13 ~ 2021-12-31</p>
+                                <p>월간 던킨!<br>30일 커피구독권 29,700원</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event16.jpg" alt="신라인터넷면세점 혜택">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>해피포인트 신라...</h2>
+                                <p>2020-08-03 ~ 소진 시까지</p>
+                                <p>신라인터넷면세점 구매확정시,<br>던킨이 드리는 2가지 혜택!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event17.png" alt="던킨 비즈콘">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>던킨 X 비즈콘</h2>
+                                <p>2020-05-01 ~ 소진 시까지</p>
+                                <p>DUNKIN' UP TO 20% OFF</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event18.png" alt="B2B 전용 모바일상품권">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_online.gif" alt="온라인"></div>
+                                <h2>B2B 전용 모바일 상품권</h2>
+                                <p>2017-08-10 ~ 2021-12-31</p>
+                                <p>던킨 B2B 전용<br>모바일 상품권을 만나보세요!</p>
+                            </div>
+                        </a>
+                    </div><!--s3_con1-->
+                    <div class="s3_con2">
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/o_event1.jpg" alt="던킨데이 챌린지">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>DUNKIN DAY</h2>
+                                <p>2021-08-01 ~ 2021-08-03</p>
+                                <p>던킨데이 123챌린지</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event2.jpg" alt="베이컨박스">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>던킨X베이컨박스</h2>
+                                <p>2021-07-21 ~ 소진 시까지</p>
+                                <p>1.2만원 이상 구매시 원터치 펫하우스 6,900원</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event3.jpg" alt="제로그램">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>던킨X제로그램</h2>
+                                <p>2021-05-21 ~ 소진 시까지</p>
+                                <p>1만원 이상 구매시 제로그램 롤테이블 6,900원</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event4.jpg" alt="기아멤버스 제휴">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>기아멤버스 제휴</h2>
+                                <p>2021-04-14 ~ 상시 운영</p>
+                                <p>기아멤버스 카드로 결제 시, 최대 20% 포인트 사용!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event5.jpg" alt="블루멤버스">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>블루멤버스 제휴</h2>
+                                <p>2021-04-14 ~ 상시 운영</p>
+                                <p>블루멤버스 카드로 결제 시 최대 20% 포인트 사용!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event6.jpg" alt="트래블 키트">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>NEW YEAR'S GIFR</h2>
+                                <p>2021-02-08 ~ 소진 시까지</p>
+                                <p>1만원 이상 구매 시 트래블 키트 3,900원</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event7.jpg" alt="매주 금요일 할인">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>DONUT FRYDAY</h2>
+                                <p>2020-05-08 ~ 상시 운영</p>
+                                <p>매주 금요일 페이머스 글레이즈드팩 6개입 5,900원, 12개입 10,900원!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event8.jpg" alt="KT멤버십">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>KT멤버십</h2>
+                                <p>2020-05-01 ~ 2021-12-31</p>
+                                <p>매일 아침 든든하게 오굿!모닝</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event9.png" alt="청구할인">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>welfareclub</h2>
+                                <p>2019-02-01 ~ 상시 운영</p>
+                                <p>던킨에서 웰페어클럽 회원 복지카드로 결제 시, 상시 3% 청구할인!</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s3_con_img">
+                                <img src="img/s_event10.png" alt="KT멤버십">
+                            </div>
+                            <div class="s3_con_txt">
+                                <div class="s3_tab_icon"><img src="img/icon_m_store.gif" alt="오프라인"></div>
+                                <h2>KT 멤버십 VIP 초이스</h2>
+                                <p>2019-01-01 ~ 2021-12-31</p>
+                                <p>KT 멤버십 VIP 초이스 글레이즈드+아메리카노 FREE</p>
+                            </div>
+                        </a>
+                    </div><!--s3_con2-->
+                </div>
+            </div><!--tab-->
+        </div>
+        <div data-role="footer" class="footer">
+            <div class="f_logo">
+                <img src="img/logo.png" alt="로고">
+            </div>
+            <div class="info">
+                <ul>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일 무단수집거부</a></li>
+                </ul>
+            </div>
+            <address>
+                서울특별시<br>
+                서초구 남부순환로 2620(양재동 11-149번지)<br>
+                사업자 등록번호 : 303-81-09535<br>
+                비알코리아(주) 대표이사 도세호<br>
+                TEL : 080-555-3131<br>
+            </address>
+            <p>COPYRIGHT ⓒ 2016 BRKOREA COMPANY.<br>
+                ALL RIGHTS RESERVED.
+            </p>
+            <div class="f_sns_icon">
+                <ul>
+                    <li><a href="#"><img src="img/icon_f.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/icon_i.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="img/icon_b.png" alt="블로그"></a></li>
+                    <li><a href="#"><img src="img/icon_y.png" alt="유투브"></a></li>
+                    <li><a href="#"><img src="img/icon_t.png" alt="트위터"></a></li>
+                </ul>
+            </div>
+        </div><!--세번째 페이지 footer-->
+        <div class="main_icon">
+            <div class="f_icon">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/f_icon_01.png" alt="store">
+                            <p>STORE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_02.png" alt="notice">
+                            <p>NOTICE</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_03.png" alt="home">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_04.png" alt="f_icon_delivery-1">
+                            <p>DELIVERY</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/f_icon_05.png" alt="창업안내">
+                            <p>창업안내</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div><!--세번째 페이지 main_icon-->
+    </div>
+</body>
+</html>
