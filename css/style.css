@@ -316,7 +316,7 @@ div { box-sizing:border-box;}
 
 /*  겹치기  footer-높이 hidden  */   
 .s1_tab_content { width:100%; position:relative; background-color:#fff; float:left; } /* footer */
-.s1_tab .s1_tab_content .s1_con1 { width:100%; position:absolute; top:0; left:0; height:3250px; overflow:hidden; }   
+.s1_tab .s1_tab_content .s1_con1 { width:100%; position:absolute; top:0; left:0; height:3100px; overflow:hidden; }   
 .s1_tab .s1_tab_content .s1_con2 { width:100%; position:absolute; top:0; left:0; height:1800px; overflow:hidden; }
 
 /*  말풍선  */
